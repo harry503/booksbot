@@ -15,4 +15,4 @@ class BooksSpider(scrapy.Spider):
             item['name'] = sel.xpath('//a/text()').extract()
             item['link'] = sel.xpath('//a/@href').extract()
 
-            yield item
+        yield item
