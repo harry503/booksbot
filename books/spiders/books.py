@@ -4,7 +4,7 @@ import scrapy
 
 class BooksSpider(scrapy.Spider):
     name = "books"
-    allowed_domains = ["books.toscrape.com"]
+    allowed_domains = ["lazada.co.id"]
     start_urls = [
         'https://www.lazada.co.id/catalog/?q=gasol%20merah%20wangi',
     ]
